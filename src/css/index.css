@@ -12,6 +12,10 @@ html {
   background-image: url("");
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .d-flex {
   display: flex;
 }

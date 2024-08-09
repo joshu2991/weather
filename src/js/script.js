@@ -492,59 +492,59 @@ async function weatherRequest(obj) {
 function getBackgroundImgBody(value) {
   switch (value) {
     case 0:
-      var image = 'url("media/images/pexels-sunny.jpg")';
+      var image = 'url("../src/media/images/pexels-sunny.jpg")';
       break;
     case 1:
     case 2:
     case 3:
-      var image = 'url("media/images/pexels-partly-cloudy.jpg")';
+      var image = 'url("../src/media/images/pexels-partly-cloudy.jpg")';
       break;
     case 45:
     case 48:
-      var image = 'url("media/images/pexels-fogging.jpg")';
+      var image = 'url("../src/media/images/pexels-fogging.jpg")';
       break;
     case 51:
     case 53:
     case 55:
-      var image = 'url("media/images/pexels-drizzle.jpg")';
+      var image = 'url("../src/media/images/pexels-drizzle.jpg")';
       break;
     case 56:
     case 57:
-      var image = 'url("media/images/pexels-snowing.jpg")';
+      var image = 'url("../src/media/images/pexels-snowing.jpg")';
       break;
     case 61:
     case 63:
     case 65:
-      var image = 'url("media/images/pexels-raining.jpg")';
+      var image = 'url("../src/media/images/pexels-raining.jpg")';
       break;
     case 66:
     case 67:
-      var image = 'url("media/images/pexels-freezing rain.jpg")';
+      var image = 'url("../src/media/images/pexels-freezing rain.jpg")';
       break;
     case 71:
     case 73:
     case 75:
-      var image = 'url("media/images/pexels-snowing.jpg")';
+      var image = 'url("../src/media/images/pexels-snowing.jpg")';
       break;
     case 77:
-      var image = 'url("media/images/pexels-snowing.jpg")';
+      var image = 'url("../src/media/images/pexels-snowing.jpg")';
       break;
     case 80:
     case 81:
     case 82:
-      var image = 'url("media/images/pexels-raining.jpg")';
+      var image = 'url("../src/media/images/pexels-raining.jpg")';
       break;
     case 85:
     case 86:
-      var image = 'url("media/images/pexels-snowing.jpg")';
+      var image = 'url("../src/media/images/pexels-snowing.jpg")';
       break;
     case 95:
     case 96:
     case 99:
-      var image = 'url("media/images/pexels-storm.jpg")';
+      var image = 'url("../src/media/images/pexels-storm.jpg")';
       break;
     default:
-      var image = 'url("media/images/pexels-clearly-sky.jpg")';
+      var image = 'url("../src/media/images/pexels-clearly-sky.jpg")';
       break;
   }
   let finalObj = {
@@ -557,59 +557,59 @@ function getBackgroundImgBody(value) {
 function getImgAndVideoWheather(value) {
   switch (value) {
     case 0:
-      var image = "media/images/Sunny_icon.svg";
+      var image = "../src/media/images/Sunny_icon.svg";
       break;
     case 1:
     case 2:
     case 3:
-      var image = "media/images/Sunny_with_cloud_icon.svg";
+      var image = "../src/media/images/Sunny_with_cloud_icon.svg";
       break;
     case 45:
     case 48:
-      var image = "media/images/Cloudy_icon.svg";
+      var image = "../src/media/images/Cloudy_icon.svg";
       break;
     case 51:
     case 53:
     case 55:
-      var image = "media/images/Sunny_Rain_icon.svg";
+      var image = "../src/media/images/Sunny_Rain_icon.svg";
       break;
     case 56:
     case 57:
-      var image = "media/images/Storm_Cloud_icon.svg";
+      var image = "../src/media/images/Storm_Cloud_icon.svg";
       break;
     case 61:
     case 63:
     case 65:
-      var image = "media/images/Thunder_Storm_icon.svg";
+      var image = "../src/media/images/Thunder_Storm_icon.svg";
       break;
     case 66:
     case 67:
-      var image = "media/images/cloud.png";
+      var image = "../src/media/images/cloud.png";
       break;
     case 71:
     case 73:
     case 75:
-      var image = "media/images/snow.png";
+      var image = "../src/media/images/snow.png";
       break;
     case 77:
-      var image = "media/images/snowflake.png";
+      var image = "../src/media/images/snowflake.png";
       break;
     case 80:
     case 81:
     case 82:
-      var image = "media/images/rainy-day.png";
+      var image = "../src/media/images/rainy-day.png";
       break;
     case 85:
     case 86:
-      var image = "media/images/snowy.png";
+      var image = "../src/media/images/snowy.png";
       break;
     case 95:
     case 96:
     case 99:
-      var image = "media/images/Lightning.svg";
+      var image = "../src/media/images/Lightning.svg";
       break;
     default:
-      var image = "media/images/Sunny_icon.svg";
+      var image = "../src/media/images/Sunny_icon.svg";
       break;
   }
   let finalObj = {

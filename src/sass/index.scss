@@ -11,7 +11,9 @@ html {
   background-size: cover;
   background-image: url("");
 }
-
+.pointer {
+  cursor:pointer;
+}
 .d-flex {
   display: flex;
 }
